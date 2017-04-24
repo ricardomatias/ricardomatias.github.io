@@ -11,57 +11,6 @@ html, body, .container {
   margin: 0;
 }
 
-/*
-mobile: up to 768px
-tablet: from 769px
-desktop: from 1000px
-widescreen: from 1192px
-*/
-
-@media screen and (max-width: 768px) {
-  .inner-container, header {
-    width: 90%;
-  }
-
-  .description-title {
-    left: 0;
-    transform: translate3d(0,-100%,0);
-  }
-
-  header h1 {
-    font-size: 24px;
-    position: relative;
-    display: inline-block;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 999px) {
-  .inner-container, header {
-    width: 75%;
-  }
-
-  .description-title {
-    transform: translate3d(-100%,0,0);
-    left: -16px;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .inner-container, header {
-    width: 50%;
-  }
-
-  header {
-    width: 50%;
-  }
-
-  .description-title {
-    transform: translate3d(-100%,0,0);
-    position: absolute;
-    left: -16px;
-  }
-}
-
 body {
   background: #000;
   font-family: 'Roboto Mono', Menlo, Lato, monospace;
@@ -106,15 +55,28 @@ article {
   line-height: 23.8px;
   position: relative;
   margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
 }
 
 code {
   letter-spacing: 1.4px;
 }
 
+img {
+  width: 200px;
+  display: block;
+}
+
 .description {
   font-size: 14px;
   margin-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.description a {
+  text-align: center;
 }
 
 .description-title {
@@ -168,4 +130,64 @@ code {
   width: 100%;
   background: transparent;
   transition: all 0s ease;
+}
+
+/*
+mobile: up to 768px
+tablet: from 769px
+desktop: from 1000px
+widescreen: from 1192px
+*/
+
+@media screen and (max-width: 768px) {
+  .inner-container, header {
+    width: 90%;
+  }
+
+  .description-title {
+    left: 0;
+    transform: translate3d(0,-100%,0);
+  }
+
+  article {
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+  }
+
+  img {
+    width: 150px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .inner-container, header {
+    width: 75%;
+  }
+
+  .description-title {
+    transform: translate3d(-100%,0,0);
+    left: -16px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .inner-container, header {
+    width: 50%;
+  }
+
+  header {
+    width: 50%;
+  }
+
+  .description-title {
+    transform: translate3d(-100%,0,0);
+    position: absolute;
+    left: -16px;
+  }
 }
