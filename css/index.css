@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  padding: 1em;
-}
-
 html, body, .container {
   height: 100%;
   margin: 0;
@@ -39,7 +35,6 @@ header .links {
 }
 
 .container {
-  height: calc(100% - 24px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,15 +59,14 @@ code {
 }
 
 img {
-  width: 200px;
+  max-width: 100%;
   display: block;
+  height: auto;
 }
 
 .description {
   font-size: 14px;
   margin-top: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 .description a {
@@ -150,7 +144,7 @@ widescreen: from 1192px
   }
 
   article {
-    justify-content: center;
+    justify-content: space-between;
   }
 
   header h1 {
