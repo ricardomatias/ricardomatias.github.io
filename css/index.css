@@ -51,7 +51,8 @@ article {
   position: relative;
   margin-top: 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 code {
@@ -161,7 +162,7 @@ widescreen: from 1192px
 
 @media screen and (min-width: 769px) and (max-width: 999px) {
   .inner-container, header {
-    width: 75%;
+    width: 65%;
   }
 
   .description-title {
@@ -177,11 +178,11 @@ widescreen: from 1192px
 
 @media screen and (min-width: 1000px) {
   .inner-container, header {
-    width: 50%;
+    width: 55%;
   }
 
   header {
-    width: 50%;
+    width: 55%;
   }
 
   .description-title {
@@ -191,7 +192,7 @@ widescreen: from 1192px
   }
 
   img {
-    width: 250px;
+    width: 200px;
     display: block;
   }
 }
