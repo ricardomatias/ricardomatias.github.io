@@ -144,10 +144,6 @@ widescreen: from 1192px
     transform: translate3d(0,-100%,0);
   }
 
-  article {
-    justify-content: space-between;
-  }
-
   header h1 {
     font-size: 24px;
     position: relative;
