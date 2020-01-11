@@ -9,13 +9,21 @@ html, body, .container {
 
 body {
   background: #000;
-  font-family: 'Roboto Mono', Menlo, Lato, monospace;
+  font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-weight: 200;
   font-style: normal;
   color: #e2e6e8;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h3, article {
+  font-family: "SF Mono", "Menlo", "Roboto Mono", "Lucida Console", Monaco, monospace;
+}
+
+header h1, header h2 {
+  letter-spacing: 0.5em;
 }
 
 header a {
