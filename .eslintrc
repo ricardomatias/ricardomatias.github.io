@@ -1,0 +1,67 @@
+{
+	"extends": [
+		"plugin:react/recommended",
+		"eslint:recommended",
+		"plugin:import/errors",
+		"plugin:import/warnings"
+	],
+	"plugins": [
+		"react-hooks",
+		"react"
+	],
+	"env": {
+		"browser": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"settings": {
+		"react": {
+			"version": "detect" // Tells eslint-plugin-react to automatically detect the version of React to use
+		}
+	},
+	"ignorePatterns": [
+		"*.config.*",
+		"node_modules/"
+	],
+	"rules": {
+		"semi": "error",
+		"quotes" : ["error", "single"],
+		"react/display-name": "off",
+		"no-console": "off",
+		"require-jsdoc": 0,
+		"indent": [
+			2,
+			"tab"
+		],
+		"no-tabs": 0,
+		"max-len": [
+			"error",
+			{
+				"code": 180
+			}
+		],
+		"no-multi-assign": 0,
+		"no-warning-comments": 0,
+		"object-curly-spacing": [
+			"error",
+			"always",
+			{
+				"objectsInObjects": false
+			}
+		],
+		"array-bracket-spacing": [
+			"error",
+			"always"
+		]
+	}
+}
