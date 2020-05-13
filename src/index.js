@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import { Link, Route } from 'wouter';
 
 import Home from './pages/home/Home';
-import AboutPage from './About';
+import DashedFigures from './pages/sketches/DashedFigures';
 
 import './index.css';
 
@@ -18,7 +18,7 @@ const Shell = () => {
 			<Route path="/">
 				<Home />
 			</Route>
-			{/* <Route path="about" component={AboutPage} /> */}
+			<Route path="/dashed-figures" component={DashedFigures} />
 		</Fragment>
 	);
 };
