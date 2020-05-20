@@ -2,7 +2,8 @@ module.exports = {
 	theme: {
 		fontFamily: {
 			sans: ['Gothic A1', "'San Francisco'", "'SF Pro Text'", "-apple-system", "system-ui", "BlinkMacSystemFont", "Roboto", "'Helvetica Neue'", "'Segoe UI'", "Arial", "sans-serif"],
-			header: [ "'Sen'", "'SF Mono'", "Menlo", "'Roboto Mono'", "'Lucida Console'", "Monaco", "monospace" ]
+			header: [ "'Sen'", "'SF Mono'", "Menlo", "'Roboto Mono'", "'Lucida Console'", "Monaco", "monospace" ],
+			body: ['Montserrat', "'San Francisco'", "'SF Pro Text'", "-apple-system", "system-ui", "BlinkMacSystemFont", "Roboto", "'Helvetica Neue'", "'Segoe UI'", "Arial", "sans-serif"]
 		},
 		fontSize: {
 			'xs': '.75rem',

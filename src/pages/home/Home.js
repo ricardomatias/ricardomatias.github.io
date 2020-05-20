@@ -9,14 +9,14 @@ const App = () => {
 
 	return (
 		<div id="outer-container" className="h-full w-full text-gray-200 relative">
-			<section className="h-screen relative flex">
+			<section className="h-screen relative flex mx-auto">
 				<Title />
 				<LandingScene />
 			</section>
-			<section className="inner-container h-screen">
+			<section className="inner-container h-screen container mx-auto">
 				<Main />
 			</section>
-			<Gallery>
+			<Gallery className="inner-container h-screen container mx-auto">
 				<span>TWO</span>
 			</Gallery>
 		</div>

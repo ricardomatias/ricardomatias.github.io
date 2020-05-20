@@ -1,9 +1,10 @@
 import React, {  Fragment } from 'react';
 import { render } from 'react-dom';
-import { Link, Route } from 'wouter';
+import { Link, Route, Router } from 'wouter';
 
 import Home from './pages/home/Home';
 import DashedFigures from './pages/sketches/DashedFigures';
+import { useHashLocation } from './utils/hooks';
 
 import './index.css';
 
@@ -15,10 +16,12 @@ function NotFound() {
 const Shell = () => {
 	return (
 		<Fragment>
-			<Route path="/">
-				<Home />
-			</Route>
-			<Route path="/dashed-figures" component={DashedFigures} />
+			<Router hook={useHashLocation}>
+				<Route path="/">
+					<Home />
+				</Route>
+				<Route path="/dashed-figures" component={DashedFigures} />
+			</Router>
 		</Fragment>
 	);
 };
