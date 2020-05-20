@@ -11,7 +11,9 @@ const SketchHeader = (props) => (
 	<div className="flex sketch-header flex-col font-header">
 		<HomeLink />
 		<div className="mt-12">
-			<h2 className="text-center text-2xl">{props.title.toUpperCase()}</h2>
+			<h2 className="md:text-6xl lg:text-7xl text-4xl flex w-1/3 mx-auto justify-center">
+				<span className="block text-center leading-none">{props.title.toUpperCase()}</span>
+			</h2>
 		</div>
 	</div>
 );
@@ -27,9 +29,8 @@ const HomeLink = () => (
 
 const TechStack = ({ stack }) => (
 	<Fragment>
-		{/* <hr className="border-gray-200 border rounded-sm"></hr> */}
 		<hr/>
-		<div className="flex my-12 justify-around md:w-2/3 md:mx-auto">
+		<div className="flex my-6 md:my-12 justify-around md:w-2/3 md:mx-auto">
 			<div className="block font-header">
 				{
 					stack.map((tech) => {
@@ -47,13 +48,11 @@ const TechStack = ({ stack }) => (
 			</div>
 		</div>
 		<hr />
-
-		{/* <div className="border-gray-200 border rounded-sm"></div> */}
 	</Fragment>
 );
 
 const SketchShell = (props) => (
-	<div className="sketch-shell text-gray-200 font-medium text-sm">
+	<div className="sketch-shell text-gray-200 font-medium text-sm py-8">
 		{props.children}
 	</div>
 );
@@ -68,32 +67,30 @@ const DashedFigures = () => {
 	return (
 		<Fragment>
 			<SketchShell>
-				<SketchContainer className="container mx-auto p-4 md:pt-10 md:px-10">
+				<SketchContainer className="container mx-auto p-4 pt-0 md:px-10">
 					<SketchHeader title="Dashed Figures" />
 				</SketchContainer>
 					
 				{images.map(({ src, name }, idx) => {
 					return (
-						<SketchContainer key={name} className={`w-full px-4 py-12 md:p-32 ${idx == 1 ? ' bg-white' : ''}`}>
-							<div className="flex flex-col font-sans p-4">
-
-								<div className="flex justify-center md:w-1/3 mx-auto shadow-sm">
-									<img className="sketch-image" alt={name} src={src}></img>
+						<SketchContainer key={name} className={`w-full h-screen px-4 py-12 md:px-32 ${idx == 1 ? ' bg-white' : ''}`}>
+							<div className="container font-sans md:p-4 h-full w-full mx-auto">
+								<div className="flex flex-shrink flex-col h-full justify-center mx-auto">
+									<img className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full" alt={name} src={src} srcSet={src}></img>
 								</div>
 							</div>
 						</SketchContainer>
 					);
 				})}
-				
 					
 				<SketchContainer>
-					<div className="flex flex-col md:w-2/3 mx-auto mb-24">
+					<div className="flex flex-col md:w-2/3 mx-auto mb-8 md:mb-24">
 						<TechStack stack={[ 'OPENRNDR', 'GLSL' ]} />
 					</div>
 				</SketchContainer>
 					
-				<SketchContainer className="w-full bg-white px-4 py-12 md:p-32 text-gray-800">
-					<div className="flex md:w-2/3 mx-auto flex-col">
+				<SketchContainer className="w-full p-8 bg-white sm:py-12 text-gray-800">
+					<div className="container flex md:w-2/3 mx-auto flex-col">
 						<h2 className="font-bold font-header text-xl">PROCESS</h2>
 						<br />
 						<p className="font-body">
@@ -101,14 +98,20 @@ const DashedFigures = () => {
 						</p>
 					</div>
 				</SketchContainer>
-				<div className="w-full bg-black mb-24">
+				<SketchContainer className="w-full bg-black mb-24">
 					<div className="container mx-auto md:p-48 md:h-64 h-48 overflow-hidden" style={{
 						background: 'url(/assets/projects/dashed-figures/lady-sm.png)',
 						backgroundRepeat: 'no-repeat',
 						backgroundSize: 'cover',
 						backgroundPosition: 'center',
 					}} />
-				</div>
+				</SketchContainer>
+				<SketchContainer className="container mx-auto">
+					<div className="w-1/3 h-1/3 mx-auto">
+						<img className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full" alt={name} src="/assets/projects/broken-glass/thumbnail-broken-1.jpg"></img>
+						<h2 className="mt-4 font-bold font-header text-lg text-center">BROKEN GLASS</h2>
+					</div>
+				</SketchContainer>
 			</SketchShell>
 		</Fragment>
 	);
