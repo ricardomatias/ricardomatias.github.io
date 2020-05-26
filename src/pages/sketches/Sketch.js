@@ -2,12 +2,6 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { useStoreState } from 'easy-peasy';
 import { ActiveLink } from '../../components/ActiveLink';
 
-const images = [
-	{ name: 'Hades', src:'/assets/projects/dashed-figures/hades-sm.png' },
-	{ name: 'Torso', src: '/assets/projects/dashed-figures/body-sm.png' },
-	{ name: 'Lady', src: '/assets/projects/dashed-figures/lady-sm.png' },
-];
-
 const SketchHeader = (props) => (
 	<div className="flex sketch-header flex-col">
 		<HomeLink />
@@ -65,48 +59,65 @@ const SketchContainer = (props) => (
 	</div>
 );
 
-const DashedFigures = () => {
+const getBannerPath = (sketch, id) => (sketch.media.filter((media) => media.id === id)[0].path);
+
+const pickRandomSketch = (sketches, id) => {
+	const pool = sketches.filter((sketch) => sketch.id !== id);
+	const roll = Math.floor(Math.random() * (pool.length + 1));
+	const idx = Math.max(Math.min(roll, pool.length - 1), 0);
+
+	return pool[idx];
+};
+
+const Sketch = ({ id }) => {
+	const sketches = useStoreState(state => state.sketches);
+	const sketch = useStoreState(state => state.sketchById(id));
+	const randomSketch = pickRandomSketch(sketches, sketch.id);
+
+	console.log(getBannerPath(sketch, sketch.banner));
+
 	useEffect(() => {
 		window.scroll(0.0, 0.0);
-	}, []);
+	}, [ sketch.id ]);
 
 	return (
 		<Fragment>
 			<SketchShell>
 				<SketchContainer className="container mx-auto p-4 pt-0 md:px-10 md:mb-12">
-					<SketchHeader title="Dashed Figures" />
+					<SketchHeader title={sketch.title} />
 				</SketchContainer>
-					
-				{images.map(({ src, name }, idx) => {
-					return (
-						<SketchContainer key={name} className={`w-full h-screen px-4 md:px-32 ${idx == 0 ? 'pb-12' : 'py-12'} ${idx == 1 ? ' bg-white' : ''}`}>
-							<div className="container font-sans md:p-4 h-full w-full mx-auto">
-								<div className="flex flex-shrink flex-col h-full justify-center mx-auto">
-									<img className="sketch-image max-h-full h-auto mx-auto w-full md:w-auto " alt={name} src={src} srcSet={src}></img>
+				<div className="bg-white w-full h-full pt-16">
+					{sketch.media.map(({ id, name, path }, idx) => {
+						return (
+							<SketchContainer key={id} className={`h-screen w-full px-4 md:px-16 bg-white py-16 ${idx == 0 ? '' : 'my-32'}`}>
+								<div className="container font-title md:p-4 h-full w-full mx-auto">
+									<div className="flex flex-shrink flex-col h-full justify-center mx-auto">
+										<img className="sketch-image max-h-full h-auto mx-auto w-full md:w-auto " alt={name} src={path} srcSet={path}></img>
+										<figcaption className="text-gray-800 text-center pt-8 text-base">{`Fig.${idx+1} - ${name}`}</figcaption>
+									</div>
 								</div>
-							</div>
-						</SketchContainer>
-					);
-				})}
-					
+							</SketchContainer>
+						);
+					})}
+				</div>
 				<SketchContainer>
 					<div className="flex flex-col md:w-2/3 mx-auto mb-24">
-						<TechStack stack={[ 'OPENRNDR', 'GLSL' ]} />
+						<TechStack stack={sketch.techStack} />
 					</div>
 				</SketchContainer>
-					
+
 				<SketchContainer className="w-full p-8 bg-white sm:py-12 text-gray-800">
 					<div className="container flex md:w-2/3 mx-auto flex-col">
 						<h2 className="font-bold font-grot text-xl">PROCESS</h2>
 						<br />
 						<p className="font-body">
-							Dashed figures was an experiment involving Poisson Disk filling.
+							{ sketch.process }
 						</p>
 					</div>
 				</SketchContainer>
 				<SketchContainer className="w-full bg-black mb-24">
 					<div className="container mx-auto md:h-64 h-48 overflow-hidden" style={{
-						background: 'url(/assets/projects/dashed-figures/lady-sm.png)',
+						background: `url(${getBannerPath(sketch, sketch.banner)})`,
 						backgroundRepeat: 'no-repeat',
 						backgroundPosition: 'center',
 						backgroundPositionY: '40%',
@@ -114,8 +125,10 @@ const DashedFigures = () => {
 				</SketchContainer>
 				<SketchContainer className="container mx-auto">
 					<div className="mx-auto">
-						<img className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full" alt={name} src="/assets/projects/broken-glass/thumbnail-broken-1.jpg" style={{ width: '200px', height: '200px' }}></img>
-						<h2 className="mt-4 font-bold font-grot text-lg text-center">BROKEN GLASS</h2>
+						<ActiveLink href={`/sketch/${randomSketch.id}`}>
+							<img className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full" alt={randomSketch.title} src={randomSketch.thumbnail} style={{ width: '200px', height: '200px' }}></img>
+							<h2 className="mt-4 font-bold font-grot text-lg text-center">{randomSketch.title.toUpperCase()}</h2>
+						</ActiveLink>
 					</div>
 				</SketchContainer>
 			</SketchShell>
@@ -123,4 +136,4 @@ const DashedFigures = () => {
 	);
 };
 
-export default DashedFigures;
+export default Sketch;

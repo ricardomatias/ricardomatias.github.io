@@ -1,0 +1,94 @@
+[
+    {
+        "id": "dashed-figures",
+        "title": "Dashed Figures",
+        "process": "Dashed figures was an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).",
+        "media": [
+            {
+                "id": "hades-sm",
+                "name": "Hades",
+                "path": "/assets/projects/dashed-figures/hades-sm.png",
+                "type": "image"
+            },
+            {
+                "id": "body-sm",
+                "name": "Torso",
+                "path": "/assets/projects/dashed-figures/body-sm.png",
+                "type": "image"
+            },
+            {
+                "id": "lady-sm",
+                "name": "Lady",
+                "path": "/assets/projects/dashed-figures/lady-sm.png",
+                "type": "image"
+            }
+        ],
+        "banner": "lady-sm",
+        "thumbnail": "/assets/projects/dashed-figures/thumbnail-hades.png",
+        "techStack": [
+            "OPENRNDR",
+            "GLSL"
+        ]
+    },
+    {
+        "id": "broken-glass",
+        "title": "Broken Glass",
+        "process": "Broken glass was an experiment on pixel particles.",
+        "media": [
+            {
+                "id": "broken-glass-1",
+                "name": "Broken Glass",
+                "path": "/assets/projects/broken-glass/broken-glass-1.png",
+                "type": "image"
+            },
+            {
+                "id": "broken-glass-2",
+                "name": "Broken Glass",
+                "path": "/assets/projects/broken-glass/broken-glass-2.png",
+                "type": "image"
+            },
+            {
+                "id": "broken-glass-3",
+                "name": "Broken Glass",
+                "path": "/assets/projects/broken-glass/broken-glass-3.png",
+                "type": "image"
+            }
+        ],
+        "banner": "broken-glass-3",
+        "thumbnail": "/assets/projects/broken-glass/thumbnail-broken-1.jpg",
+        "techStack": [
+            "OPENRNDR",
+            "GLSL"
+        ]
+    },
+    {
+        "id": "diamond-gradient",
+        "title": "Diamond Gradient",
+        "process": "Diamond Gradient was an experiment on pixel particles.",
+        "media": [
+            {
+                "id": "diamond-gradient-1",
+                "name": "Diamond Gradient",
+                "path": "/assets/projects/gradient/diamond.png",
+                "type": "image"
+            },
+            {
+                "id": "diamond-gradient-2",
+                "name": "Diamond Gradient",
+                "path": "/assets/projects/gradient/diamond-2.png",
+                "type": "image"
+            },
+            {
+                "id": "diamond-gradient-3",
+                "name": "Diamond Gradient",
+                "path": "/assets/projects/gradient/diamond-3.png",
+                "type": "image"
+            }
+        ],
+        "banner": "diamond-gradient-1",
+        "thumbnail": "/assets/projects/gradient/thumbnail-gradient.jpg",
+        "techStack": [
+            "OPENRNDR"
+        ]
+    }
+]

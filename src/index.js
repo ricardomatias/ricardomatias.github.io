@@ -1,16 +1,20 @@
 import React, {  Fragment } from 'react';
 import { render } from 'react-dom';
 import { Link, Route, Router } from 'wouter';
+import { StoreProvider } from 'easy-peasy';
 
 import Home from './pages/home/Home';
 import DashedFigures from './pages/sketches/DashedFigures';
+import Sketch from './pages/sketches/Sketch';
 import { useHashLocation } from './utils/hooks';
+import store from './store';
 
 import './index.css';
 
 function NotFound() {
 	return <p>404 Not Found</p>;
 }
+
 
 
 const Shell = () => {
@@ -20,10 +24,16 @@ const Shell = () => {
 				<Route path="/">
 					<Home />
 				</Route>
-				<Route path="/dashed-figures" component={DashedFigures} />
+				<Route path="/sketch/:id">
+					{params => <Sketch id={params.id} />}
+				</Route>
 			</Router>
 		</Fragment>
 	);
 };
 
-render(<Shell />, document.getElementById('root'));
+render((
+	<StoreProvider store={store}>
+		<Shell />
+	</StoreProvider>
+), document.getElementById('root'));

@@ -6,6 +6,7 @@
   "private": true,
   "dependencies": {
     "@hot-loader/react-dom": "^16.11.0",
+    "easy-peasy": "^3.3.0",
     "file-loader": "^5.1.0",
     "postprocessing": "^6.12.2",
     "prop-types": "^15.7.2",
