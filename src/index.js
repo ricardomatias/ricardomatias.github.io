@@ -6,7 +6,7 @@ import { StoreProvider } from 'easy-peasy';
 import Home from './pages/home/Home';
 import DashedFigures from './pages/sketches/DashedFigures';
 import Sketch from './pages/sketches/Sketch';
-import { useHashLocation } from './utils/hooks';
+import { useHashLocation } from './hooks/useHashLocation';
 import store from './store';
 
 import './index.css';

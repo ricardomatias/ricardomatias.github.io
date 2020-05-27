@@ -69,6 +69,17 @@ const pickRandomSketch = (sketches, id) => {
 	return pool[idx];
 };
 
+const Banner = ({ sketch }) => (
+	<div className="w-full bg-black mb-24">
+		<div className="container mx-auto md:h-64 h-48 overflow-hidden " style={{
+			backgroundImage: `url(${getBannerPath(sketch, sketch.banner)})`,
+			backgroundRepeat: 'no-repeat',
+			backgroundPosition: 'center',
+			backgroundPositionY: '40%',
+		}} />
+	</div>
+);
+
 const Sketch = ({ id }) => {
 	const sketches = useStoreState(state => state.sketches);
 	const sketch = useStoreState(state => state.sketchById(id));
@@ -83,17 +94,17 @@ const Sketch = ({ id }) => {
 	return (
 		<Fragment>
 			<SketchShell>
-				<SketchContainer className="container mx-auto p-4 pt-0 md:px-10 md:mb-12">
+				<SketchContainer className="container mx-auto p-4 pt-0 md:px-10 md:mb-12 pb-16">
 					<SketchHeader title={sketch.title} />
 				</SketchContainer>
-				<div className="bg-white w-full h-full pt-16">
+				<div className="bg-white w-full h-full pt-8">
 					{sketch.media.map(({ id, name, path }, idx) => {
 						return (
-							<SketchContainer key={id} className={`h-screen w-full px-4 md:px-16 bg-white py-16 ${idx == 0 ? '' : 'my-32'}`}>
+							<SketchContainer key={id} className={`h-screen w-full px-4 md:px-16 md:py-16 ${idx == 0 ? '' : 'md:my-32'}`}>
 								<div className="container font-title md:p-4 h-full w-full mx-auto">
 									<div className="flex flex-shrink flex-col h-full justify-center mx-auto">
 										<img className="sketch-image max-h-full h-auto mx-auto w-full md:w-auto " alt={name} src={path} srcSet={path}></img>
-										<figcaption className="text-gray-800 text-center pt-8 text-base">{`Fig.${idx+1} - ${name}`}</figcaption>
+										{/* <figcaption className="text-gray-800 text-center pt-8 text-base">{`Fig.${idx+1} - ${name}`}</figcaption> */}
 									</div>
 								</div>
 							</SketchContainer>
@@ -101,7 +112,7 @@ const Sketch = ({ id }) => {
 					})}
 				</div>
 				<SketchContainer>
-					<div className="flex flex-col md:w-2/3 mx-auto mb-24">
+					<div className="flex flex-col md:w-2/3 mx-auto my-24">
 						<TechStack stack={sketch.techStack} />
 					</div>
 				</SketchContainer>
@@ -115,14 +126,7 @@ const Sketch = ({ id }) => {
 						</p>
 					</div>
 				</SketchContainer>
-				<SketchContainer className="w-full bg-black mb-24">
-					<div className="container mx-auto md:h-64 h-48 overflow-hidden" style={{
-						background: `url(${getBannerPath(sketch, sketch.banner)})`,
-						backgroundRepeat: 'no-repeat',
-						backgroundPosition: 'center',
-						backgroundPositionY: '40%',
-					}} />
-				</SketchContainer>
+				<Banner sketch={sketch} />
 				<SketchContainer className="container mx-auto">
 					<div className="mx-auto">
 						<ActiveLink href={`/sketch/${randomSketch.id}`}>
