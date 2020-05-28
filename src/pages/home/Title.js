@@ -34,7 +34,7 @@ const Header = () => {
 	}, [ show ]);
 
 	return (
-		<div className="header-container container mx-8 mt-10 mb-4 md:mx-auto md:pt-40 relative flex flex-col z-50 content-between">
+		<div className="header-container container mx-8 mt-10 mb-4 md:pt-40 relative flex flex-col z-50 content-between">
 			<div className="flex flex-col flex-grow">
 				<div className="header-title font-title text-gray-200 inline-block tracking-widest z-10">
 					{trail.map(({ x, height, ...rest }, index) => (
@@ -46,7 +46,7 @@ const Header = () => {
 						</animated.div>
 					))}
 				</div>
-				<div className="header-title font-header text-gray-200 tracking-widest pt-10 flex md:justify-start justify-center md:pt-40 sm:text-2xl md:text-4xl z-10">
+				<div className="header-title font-grot text-gray-200 tracking-widest pt-10 flex md:justify-start justify-center md:pt-40 sm:text-2xl md:text-4xl z-10">
 					{transitions.map(({ item, key, props }) =>
 						item && <animated.div key={key} style={props}>CREATIVE DEVELOPER</animated.div>
 					)}

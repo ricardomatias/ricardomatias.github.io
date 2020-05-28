@@ -70,12 +70,13 @@ const pickRandomSketch = (sketches, id) => {
 };
 
 const Banner = ({ sketch }) => (
-	<div className="w-full bg-black mb-24">
-		<div className="container mx-auto md:h-64 h-48 overflow-hidden " style={{
-			backgroundImage: `url(${getBannerPath(sketch, sketch.banner)})`,
+	<div className="w-full mb-24" style={{ backgroundColor: sketch.banner.color }}>
+		<div className="mx-auto md:h-64 h-48 overflow-hidden " style={{
+			backgroundImage: `url(${getBannerPath(sketch, sketch.banner.id)})`,
 			backgroundRepeat: 'no-repeat',
 			backgroundPosition: 'center',
 			backgroundPositionY: '40%',
+			backgroundSize: 'cover',
 		}} />
 	</div>
 );
@@ -84,8 +85,6 @@ const Sketch = ({ id }) => {
 	const sketches = useStoreState(state => state.sketches);
 	const sketch = useStoreState(state => state.sketchById(id));
 	const randomSketch = pickRandomSketch(sketches, sketch.id);
-
-	console.log(getBannerPath(sketch, sketch.banner));
 
 	useEffect(() => {
 		window.scroll(0.0, 0.0);

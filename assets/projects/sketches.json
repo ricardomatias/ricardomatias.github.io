@@ -23,7 +23,10 @@
                 "type": "image"
             }
         ],
-        "banner": "lady-sm",
+        "banner": {
+            "id": "lady-sm",
+            "color": "hsl(180, 5%, 4%)"
+        },
         "thumbnail": "/assets/projects/dashed-figures/thumbnail-hades.png",
         "techStack": [
             "OPENRNDR",
@@ -54,7 +57,10 @@
                 "type": "image"
             }
         ],
-        "banner": "broken-glass-3",
+        "banner": {
+            "id": "broken-glass-3",
+            "color": "hsl(0, 0%, 0%)"
+        },
         "thumbnail": "/assets/projects/broken-glass/thumbnail-broken-1.jpg",
         "techStack": [
             "OPENRNDR",
@@ -85,8 +91,47 @@
                 "type": "image"
             }
         ],
-        "banner": "diamond-gradient-1",
+        "banner": {
+            "id": "diamond-gradient-1",
+            "color": "hsl(27, 23%, 43%)"
+        },
         "thumbnail": "/assets/projects/gradient/thumbnail-gradient.jpg",
+        "techStack": [
+            "OPENRNDR"
+        ]
+    },
+    {
+        "id": "typo-letters",
+        "title": "Gradient Type",
+        "process": "Typography was an experiment on pixel particles.",
+        "media": [
+            {
+                "id": "typo-letters-1",
+                "name": "Letter K",
+                "path": "/assets/projects/typography/letter-k-2.png",
+                "type": "image"
+            },
+            {
+                "id": "typo-letters-2",
+                "name": "Letter Q",
+                "path": "/assets/projects/typography/letter-q.png",
+                "type": "image"
+            },
+            {
+                "id": "typo-letters-3",
+                "name": "Letter R",
+                "path": "/assets/projects/typography/letter-r-2.png",
+                "type": "image"
+            },
+            {
+                "id": "typo-letters-4",
+                "name": "Letter S",
+                "path": "/assets/projects/typography/letter-x.png",
+                "type": "image"
+            }
+        ],
+        "banner": { "id": "typo-letters-3", "color": "hsl(27, 28%, 60%)" },
+        "thumbnail": "/assets/projects/typography/thumbnail-letter-r.png",
         "techStack": [
             "OPENRNDR"
         ]

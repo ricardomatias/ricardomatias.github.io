@@ -5,7 +5,7 @@ export const ActiveLink = props => {
 	const [ isActive ] = useRoute(props.href);
 	return (
 		<Link {...props}>
-			<a className={`${props.className}${isActive ? ' active' : ''}`}>{props.children}</a>
+			<a className={`${props.className || ''} link ${isActive ? ' active' : ''}`}>{props.children}</a>
 		</Link>
 	);
 };

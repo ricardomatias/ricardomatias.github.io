@@ -13,12 +13,10 @@ const App = () => {
 				<Title />
 				<LandingScene />
 			</section>
-			<section className="inner-container h-screen container mx-auto">
+			{/* <section className="inner-container h-screen container mx-auto">
 				<Main />
-			</section>
-			<Gallery className="inner-container h-screen container mx-auto">
-				<span>TWO</span>
-			</Gallery>
+			</section> */}
+			<Gallery className="inner-container h-screen container mx-auto" />
 		</div>
 	);
 };
