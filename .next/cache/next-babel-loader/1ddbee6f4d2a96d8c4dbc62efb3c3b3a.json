@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Link from 'next/link';\nexport const SketchLink = ({\n  children,\n  id\n}) => __jsx(Link, {\n  href: \"/sketches/[id]\",\n  as: `/sketches/${id}`\n}, __jsx(\"a\", null, children));","map":null,"metadata":{},"sourceType":"module"}

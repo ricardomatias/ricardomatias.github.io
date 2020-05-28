@@ -36,7 +36,6 @@
 	"rules": {
 		"semi": "error",
 		"quotes" : ["error", "single"],
-		"react/display-name": "off",
 		"no-console": "off",
 		"require-jsdoc": 0,
 		"indent": [
@@ -62,6 +61,9 @@
 		"array-bracket-spacing": [
 			"error",
 			"always"
-		]
+		],
+		"react/react-in-jsx-scope": 0,
+		"react/prop-types": 0,
+		"react/display-name": "off"
 	}
 }

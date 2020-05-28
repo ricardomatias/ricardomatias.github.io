@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var thumbnailLink = function thumbnailLink(sketch) {\n  return \"/sketches/\".concat(sketch.id, \"/\").concat(sketch.thumbnail);\n};\nexport var assetLink = function assetLink(sketch, asset) {\n  return \"/sketches/\".concat(sketch.id, \"/\").concat(asset);\n};","map":null,"metadata":{},"sourceType":"module"}

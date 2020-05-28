@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './Octahedron';\nexport * from './Swarm';","map":{"version":3,"sources":["/Users/feral/Projects/ricardomatias.github.io/components/3d/index.js"],"names":[],"mappings":"AAAA,cAAc,cAAd;AACA,cAAc,SAAd","sourcesContent":["export * from './Octahedron';\nexport * from './Swarm';\n"]},"metadata":{},"sourceType":"module"}

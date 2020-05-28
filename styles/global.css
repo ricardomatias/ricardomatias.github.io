@@ -1,0 +1,20 @@
+/* purgecss start ignore */
+@tailwind base;
+
+@tailwind components;
+
+/* purgecss end ignore */
+@tailwind utilities;
+
+#root,
+html {
+  background-color: #ff0018;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+a {
+  cursor: pointer;
+}
+
+

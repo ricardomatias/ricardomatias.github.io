@@ -1,4 +1,5 @@
 module.exports = {
+	purge: [],
 	theme: {
 		fontFamily: {
 			sans: ['Gothic A1', "'San Francisco'", "'SF Pro Text'", "-apple-system", "system-ui", "BlinkMacSystemFont", "Roboto", "'Helvetica Neue'", "'Segoe UI'", "Arial", "sans-serif"],

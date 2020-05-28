@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const thumbnailLink = sketch => `/sketches/${sketch.id}/${sketch.thumbnail}`;\nexport const assetLink = (sketch, asset) => `/sketches/${sketch.id}/${asset}`;","map":null,"metadata":{},"sourceType":"module"}

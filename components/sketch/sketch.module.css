@@ -1,0 +1,30 @@
+.sketch-image {
+  box-shadow: 9px 14px 24px -8px rgba(0, 0, 0, 0.54);
+}
+
+.sketch-content {
+  @apply font-body;
+}
+
+.sketch-content h2 {
+  @apply font-bold font-grot text-xl;
+}
+
+.sketch-content a {
+  @apply inline-block align-baseline font-bold text-sm text-gray-700;
+}
+
+.sketch-content a::after {
+  @apply bg-gray-500;
+  content: "";
+  height: 2px;
+  width: 0;
+  opacity: 1;
+  display: block;
+  transition: all ease-in-out 0.25s;
+}
+
+.sketch-content a:hover::after {
+  opacity: 1;
+  width: 100%;
+}
