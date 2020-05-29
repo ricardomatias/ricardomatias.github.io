@@ -1,5 +1,6 @@
 [
     {
+        "type": "sketch",
         "id": "dashed-figures",
         "title": "Dashed Figures",
         "process": "Dashed figures was an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).",
@@ -35,6 +36,7 @@
     },
     {
         "id": "broken-glass",
+        "type": "sketch",
         "title": "Broken Glass",
         "process": "Broken glass was an experiment on pixel particles.",
         "media": [
@@ -69,6 +71,7 @@
     },
     {
         "id": "diamond-gradient",
+        "type": "sketch",
         "title": "Diamond Gradient",
         "process": "Diamond Gradient was an experiment on pixel particles.",
         "media": [
@@ -103,6 +106,7 @@
     {
         "id": "typo-letters",
         "title": "Gradient Type",
+        "type": "sketch",
         "process": "Typography was an experiment on pixel particles.",
         "media": [
             {

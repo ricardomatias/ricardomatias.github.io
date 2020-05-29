@@ -5,6 +5,14 @@ export default function useMeasure() {
 	const ref = useRef();
 	const [ bounds, set ] = useState({ left: 0, top: 0, width: 0, height: 0 });
 	const [ ro ] = useState(() => new ResizeObserver(([ entry ]) => set(entry.contentRect)));
-	useEffect(() => (ro.observe(ref.current), ro.disconnect), []);
+	console.log('useMeasure');
+	useEffect(() => {
+		ro.observe(ref.current);
+		return () => {
+			ro.unobserve(ref.current);
+			ro.disconnect();
+		};
+	}, []);
+
 	return [ { ref }, bounds ];
 }

@@ -15,8 +15,6 @@ function NotFound() {
 	return <p>404 Not Found</p>;
 }
 
-
-
 const Shell = () => {
 	return (
 		<Fragment>

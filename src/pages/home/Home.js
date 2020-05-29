@@ -8,7 +8,7 @@ import { LandingScene } from './scenes/Landing';
 const App = () => {
 
 	return (
-		<div id="outer-container" className="h-full w-full text-gray-200 relative">
+		<div id="outer-container" className="h-full w-full text-gray-200 relative md:px-16">
 			<section className="h-screen relative flex mx-auto">
 				<Title />
 				<LandingScene />
