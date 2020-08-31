@@ -1,354 +1,484 @@
 {
   "../components/home/Gallery": [
     {
-      "id": "/jkW",
-      "name": "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./components/home/Gallery.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "0Bsm",
-      "name": "./node_modules/next/dist/client/with-router.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./components/home/gallery.module.css",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "284h",
-      "name": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./components/links/SketchLink.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "4JlD",
-      "name": "./node_modules/querystring-es3/encode.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./hooks/useMeasure.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "J4zp",
-      "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./hooks/useMedia.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "QmWs",
-      "name": "./node_modules/native-url/dist/index.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./lib/links.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "TqRt",
-      "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "YTqd",
-      "name": "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "b48C",
-      "name": "./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/construct.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "dZ6Y",
-      "name": "./node_modules/next/dist/next-server/lib/mitt.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "elyg",
-      "name": "./node_modules/next/dist/next-server/lib/router/router.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "g/15",
-      "name": "./node_modules/next/dist/next-server/lib/utils.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "gguc",
-      "name": "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "kd2E",
-      "name": "./node_modules/querystring-es3/decode.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "ls82",
-      "name": "./node_modules/regenerator-runtime/runtime.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "m0LI",
-      "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "nOHt",
-      "name": "./node_modules/next/dist/client/router.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "o0o1",
-      "name": "./node_modules/@babel/runtime/regenerator/index.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "qOIg",
-      "name": "./node_modules/next/dist/next-server/lib/router-context.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "s4NR",
-      "name": "./node_modules/querystring-es3/index.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "sXyB",
-      "name": "./node_modules/@babel/runtime/helpers/construct.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "wTVA",
-      "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "wkBT",
-      "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "yXPU",
-      "name": "./node_modules/@babel/runtime/helpers/asyncToGenerator.js",
-      "file": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js",
-      "publicPath": "static/chunks/c3e4f1248e40cf42829919a597bec45219662b42.30eb5ea15ef35b7071f2.js"
+      "id": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "",
-      "name": null,
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "9qlX",
-      "name": "./lib/links.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "YFqc",
-      "name": "./node_modules/next/link.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "bdgK",
-      "name": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "cTJO",
-      "name": "./node_modules/next/dist/client/link.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "ep+x",
-      "name": "./components/home/Gallery.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "uWhb",
-      "name": "./hooks/useMedia.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/home/gallery.module.css",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "wx14",
-      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/debounce/index.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "yLpj",
-      "name": "./node_modules/webpack/buildin/global.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/easy-peasy/dist/easy-peasy.esm.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "yMd1",
-      "name": "./components/home/gallery.module.css",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/function-bind/implementation.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "zLVn",
-      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/function-bind/index.js",
+      "file": "static/chunks/1.js"
     },
     {
-      "id": "zPEd",
-      "name": "./components/links/SketchLink.js",
-      "file": "static/chunks/13.61f6f6cd92963d97f85c.js",
-      "publicPath": "static/chunks/13.61f6f6cd92963d97f85c.js"
+      "id": "./node_modules/has/src/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/immer-peasy/dist/immer.module.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/is-plain-object/index.es.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/memoizerific/memoizerific.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/build/polyfills/object.assign/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/link.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/normalize-trailing-slash.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/router.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/with-router.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/mitt.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router-context.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/router.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/format-url.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/is-dynamic.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/parse-relative-url.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/querystring.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/route-matcher.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/router/utils/route-regex.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/dist/next-server/lib/utils.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/next/link.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/process/browser.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types-exact/build/helpers/isPlainObject.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types-exact/build/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-is/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/react-spring/web.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/redux-thunk/es/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/redux/es/redux.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/symbol-observable/es/index.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "static/chunks/1.js"
+    },
+    {
+      "id": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/1.js"
     }
   ],
   "../components/scenes/Landing": [
     {
-      "id": "+wdc",
-      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./components/3d/Octahedron.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "8L3h",
-      "name": "./node_modules/use-subscription/index.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./components/3d/Swarm.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "QCnb",
-      "name": "./node_modules/scheduler/index.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./components/3d/index.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "f/k9",
-      "name": "./node_modules/use-subscription/cjs/use-subscription.production.min.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./components/scenes/Backdrop.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "i8i4",
-      "name": "./node_modules/react-dom/index.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./components/scenes/Landing.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "q1tI",
-      "name": "./node_modules/react/index.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./hooks/useMedia.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "viRO",
-      "name": "./node_modules/react/cjs/react.production.min.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "yl30",
-      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
-      "file": "static/chunks/framework.c666715b7db53f7b4cad.js",
-      "publicPath": "static/chunks/framework.c666715b7db53f7b4cad.js"
+      "id": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "Womt",
-      "name": "./node_modules/three/build/three.module.js",
-      "file": "static/chunks/fb7d5399.17ddb9ec6bb0462d222e.js",
-      "publicPath": "static/chunks/fb7d5399.17ddb9ec6bb0462d222e.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/DOMRectReadOnly.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "+IsV",
-      "name": "./node_modules/react-reconciler/cjs/react-reconciler.production.min.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObservation.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "3UD+",
-      "name": "./node_modules/webpack/buildin/harmony-module.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObserver.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "AM2X",
-      "name": "./node_modules/react-promise-suspense/node_modules/fast-deep-equal/index.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObserverBoxOptions.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "DCKG",
-      "name": "./node_modules/react-promise-suspense/build/index.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObserverController.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "DVrL",
-      "name": "./components/scenes/Landing.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObserverDetail.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "NJdT",
-      "name": "./node_modules/react-reconciler/index.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/ResizeObserverEntry.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "YuTi",
-      "name": "./node_modules/webpack/buildin/module.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/broadcastActiveObservations.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "iEE2",
-      "name": "./node_modules/react-use-measure/dist/web.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/calculateBoxSize.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "sBL/",
-      "name": "./node_modules/debounce/index.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/calculateDepthForNode.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "uWhb",
-      "name": "./hooks/useMedia.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/deliverResizeLoopError.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "wOJ8",
-      "name": "./node_modules/tiny-emitter/index.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/gatherActiveObservationsAtDepth.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "wx14",
-      "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/hasActiveObservations.js",
+      "file": "static/chunks/2.js"
     },
     {
-      "id": "zLVn",
-      "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js",
-      "file": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js",
-      "publicPath": "static/chunks/12.4d4bbd0c1b7bc13a7d81.js"
+      "id": "./node_modules/@juggle/resize-observer/lib/algorithms/hasSkippedObservations.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/exports/resize-observer.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/element.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/global.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/process.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/queueMicroTask.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/queueResizeObserver.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/resizeObservers.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/@juggle/resize-observer/lib/utils/scheduler.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/debounce/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/prop-types/factoryWithTypeCheckers.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/prop-types/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-is/cjs/react-is.development.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-is/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-merge-refs/dist/react-merge-refs.esm.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-promise-suspense/build/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-promise-suspense/node_modules/fast-deep-equal/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-reconciler/cjs/react-reconciler.development.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-reconciler/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-three-fiber/web.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/react-use-measure/dist/web.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler-tracing.development.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/scheduler/cjs/scheduler.development.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/scheduler/index.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/scheduler/tracing.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/three/build/three.module.js",
+      "file": "static/chunks/2.js"
+    },
+    {
+      "id": "./node_modules/tiny-emitter/index.js",
+      "file": "static/chunks/2.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/0.js"
     }
   ]
 }

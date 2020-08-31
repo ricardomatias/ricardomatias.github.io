@@ -1,1 +1,7 @@
-{"/_app":"static/Qh903u0NGY8zOWHK1Az1Y/pages/_app.js","/_document":"static/Qh903u0NGY8zOWHK1Az1Y/pages/_document.js","/_error":"static/Qh903u0NGY8zOWHK1Az1Y/pages/_error.js","/about":"static/Qh903u0NGY8zOWHK1Az1Y/pages/about.js","/index":"static/Qh903u0NGY8zOWHK1Az1Y/pages/index.js","/sketches/[id]":"static/Qh903u0NGY8zOWHK1Az1Y/pages/sketches/[id].js","/":"static/Qh903u0NGY8zOWHK1Az1Y/pages/index.js"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/sketches/[id]": "pages/sketches/[id].js",
+  "/": "pages/index.js"
+}
