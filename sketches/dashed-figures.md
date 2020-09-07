@@ -14,6 +14,10 @@ media:
   name: Lady
   path: "lady-sm.png"
   type: image
+- id: hades-loop
+  name: Hades is alive
+  path: "hades-loop.gif"
+  type: image
 banner:
   id: lady-sm
   color: hsl(180, 5%, 4%)
@@ -24,5 +28,5 @@ techStack:
 ---
 
 ## Process
-  
+
 Dashed figures was an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).

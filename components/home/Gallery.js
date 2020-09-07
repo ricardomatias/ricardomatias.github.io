@@ -20,8 +20,8 @@ function MasonryGallery({ sketches }) {
 	const padding = 15;
 
 	// Hook1: Tie media queries to the number of columns
-	const columns = useMedia([ '(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)' ], [ 4, 3, 3 ], 2);
-	const size = useMedia([ '(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)' ], [ 300, 300, 200 ], 200);
+	const columns = useMedia([ '(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)' ], [ 4, 4, 3 ], 2);
+	const size = useMedia([ '(min-width: 1500px)', '(min-width: 1000px)', '(min-width: 600px)' ], [ 300, 250, 150 ], 200);
 
 	// Hook2: Measure the width of the container element
 	const [ bind, { width } ] = useMeasure();

@@ -40,6 +40,31 @@ const SketchContainer = (props) => (
 	</div>
 );
 
+// const filterMedia = (sketch, type) => (sketch.media.filter((media) => media.type === type));
+
+// {/* <figcaption className="text-gray-800 text-center pt-8 text-base">{`Fig.${idx+1} - ${name}`}</figcaption> */ }
+
+const Caption = ({ number, name }) => (
+	<figcaption className="text-gray-800 text-center pt-8 text-base">{`${name}`}</figcaption>
+);
+
+const SketchImage = ({ name, path, idx }) => (
+	<Fragment>
+		<img className="max-h-full h-auto mx-auto w-full md:w-auto " alt={name} src={path} srcSet={path}></img>
+		<Caption name={name} number={idx} />
+	</Fragment>
+);
+
+const SketchVideo = ({ path, name, width, height, idx }) => (
+	<Fragment>
+		<video className="max-h-full h-auto mx-auto w-full md:w-auto" width={width} height={height} controls>
+			<source src={path} type="video/mp4" />
+				Your browser does not support the video tag.
+		</video>
+		<Caption name={name} number={idx} />
+	</Fragment>
+);
+
 const Sketch = ({ sketch, randomSketch }) => {
 	useEffect(() => {
 		window.scroll(0.0, 0.0);
@@ -52,14 +77,18 @@ const Sketch = ({ sketch, randomSketch }) => {
 					<SketchHeader title={sketch.title} />
 				</SketchContainer>
 				<div className="bg-white w-full h-full pt-8">
-					{sketch.media.map(({ id, name, path: imagePath }, idx) => {
+					{sketch.media.map(({ id, name, path: imagePath, type, width, height }, idx) => {
 						const path = assetLink(sketch, imagePath);
 						return (
 							<SketchContainer key={id} className={`h-screen w-full px-4 md:px-16 md:py-16 ${idx == 0 ? '' : 'md:my-32'}`}>
 								<div className="container font-title md:p-4 h-full w-full mx-auto">
 									<div className="flex flex-shrink flex-col h-full justify-center mx-auto">
-										<img className="sketch-image max-h-full h-auto mx-auto w-full md:w-auto " alt={name} src={path} srcSet={path}></img>
-										{/* <figcaption className="text-gray-800 text-center pt-8 text-base">{`Fig.${idx+1} - ${name}`}</figcaption> */}
+										{
+											type === 'image' ?
+												<SketchImage path={path} name={name} idx={idx} /> :
+												<SketchVideo path={path} name={name} width={width} height={height} idx={idx} />
+										}
+
 									</div>
 								</div>
 							</SketchContainer>
@@ -72,11 +101,14 @@ const Sketch = ({ sketch, randomSketch }) => {
 					</div>
 				</SketchContainer>
 				<Content content={sketch.content} />
-				<Banner sketch={sketch} />
-				<SketchContainer className="container mx-auto">
-					<div className="mx-auto">
+				{sketch.banner ? <Banner sketch={sketch} /> : null }
+				<SketchContainer className="container mx-auto mt-24">
+					<div className="mx-auto flex justify-center">
 						<SketchLink id={randomSketch.id}>
-							<img className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full" alt={randomSketch.title} src={thumbnailLink(randomSketch)} style={{ width: '200px', height: '200px' }}></img>
+							<img
+								// className="sketch-image h-auto mx-auto w-full md:w-auto md:h-full"
+								alt={randomSketch.title} src={thumbnailLink(randomSketch)}
+								style={{ width: '200px', height: '200px' }}></img>
 							<h2 className="mt-4 font-bold font-grot text-lg text-center">{randomSketch.title.toUpperCase()}</h2>
 						</SketchLink>
 					</div>

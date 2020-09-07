@@ -37,14 +37,6 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
-      "file": "static/chunks/1.js"
-    },
-    {
       "id": "./node_modules/@babel/runtime/helpers/esm/arrayWithoutHoles.js",
       "file": "static/chunks/1.js"
     },
@@ -61,14 +53,6 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
-      "file": "static/chunks/1.js"
-    },
-    {
       "id": "./node_modules/@babel/runtime/helpers/esm/nonIterableSpread.js",
       "file": "static/chunks/1.js"
     },
@@ -81,15 +65,7 @@
       "file": "static/chunks/1.js"
     },
     {
-      "id": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
-      "file": "static/chunks/1.js"
-    },
-    {
       "id": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
-      "file": "static/chunks/1.js"
-    },
-    {
-      "id": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
       "file": "static/chunks/1.js"
     },
     {

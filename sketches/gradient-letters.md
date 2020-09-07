@@ -3,19 +3,19 @@ id: gradient-letters
 title: Gradient Type
 media:
 - id: gradient-letters-1
-  name: Letter K
+  name: K
   path: "letter-k-2.png"
   type: image
 - id: gradient-letters-2
-  name: Letter Q
+  name: Q
   path: "letter-q.png"
   type: image
 - id: gradient-letters-3
-  name: Letter R
+  name: R
   path: "letter-r-2.png"
   type: image
 - id: gradient-letters-4
-  name: Letter S
+  name: S
   path: "letter-x.png"
   type: image
 banner:

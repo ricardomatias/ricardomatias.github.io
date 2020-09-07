@@ -8,6 +8,7 @@ module.exports = {
 			grot: ['work Sans', "'San Francisco'", "'SF Pro Text'", "-apple-system", "system-ui", "BlinkMacSystemFont", "Roboto", "'Helvetica Neue'", "'Segoe UI'", "Arial", "sans-serif"]
 		},
 		fontSize: {
+			'xxs': '.5rem',
 			'xs': '.75rem',
 			'sm': '.875rem',
 			'tiny': '.875rem',

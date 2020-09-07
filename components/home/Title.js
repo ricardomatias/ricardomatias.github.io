@@ -5,7 +5,7 @@ const items = [ 'ricardo', 'matias' ];
 const Header = () => {
 
 	return (
-		<div className="container  mb-4 md:pt-40 h-screen mx-auto relative flex flex-col z-50 content-between">
+		<div className="container w-11/12 mb-4 md:pt-40 h-screen mx-auto relative flex flex-col z-50 content-between">
 			<div className="flex flex-col flex-grow">
 				<div className="header-title font-title text-gray-200 inline-block tracking-widest z-10">
 					{items.map((word, index) => (
