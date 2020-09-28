@@ -1,6 +1,7 @@
 ---
 id: dashed-figures
 title: Dashed Figures
+date: "2020-04-25"
 media:
 - id: hades-sm
   name: Hades
@@ -27,6 +28,4 @@ techStack:
 - GLSL
 ---
 
-## Process
-
-Dashed figures was an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).
+Dashed figures is an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).

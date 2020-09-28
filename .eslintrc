@@ -31,7 +31,8 @@
 	},
 	"ignorePatterns": [
 		"*.config.*",
-		"node_modules/"
+		"node_modules/",
+		"*.md"
 	],
 	"rules": {
 		"semi": "error",

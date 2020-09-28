@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function useMedia(queries, values, defaultValue) {
+export const useMedia = (queries, values, defaultValue) => {
 	const match = () => values[queries.findIndex(q => matchMedia(q).matches)] || defaultValue;
 	const [ value, set ] = useState(match);
 
@@ -11,4 +11,4 @@ export default function useMedia(queries, values, defaultValue) {
 	}, []);
 
 	return value;
-}
+};

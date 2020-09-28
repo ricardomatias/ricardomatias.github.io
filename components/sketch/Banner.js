@@ -4,7 +4,7 @@ import { assetLink } from '../../lib/links';
 const getBannerPath = (sketch, id) => {
 	const banner = sketch.media.filter((media) => media.id === id)[0].path;
 
-	return assetLink(sketch, banner);
+	return assetLink('sketches',sketch.id, banner);
 };
 
 export const Banner = ({ sketch }) => (

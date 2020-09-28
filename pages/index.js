@@ -1,19 +1,22 @@
 import dynamic from 'next/dynamic'
 import Title from '../components/home/Title';
-import { getSketches } from '../lib/sketches';
+import { getItems } from '../lib/file-items';
+import { sketchesDir } from '../lib/sketches';
+import { musicDir } from '../lib/music';
 import Layout from '../components/layout';
 
 const Gallery = dynamic(() => import('../components/home/Gallery'), { ssr: false });
 const LandingScene = dynamic(() => import('../components/scenes/Landing'), { ssr: false });
 
 export async function getStaticProps() {
-	const sketches = getSketches();
+	const sketches = getItems(sketchesDir);
+	const music = getItems(musicDir);
 	return {
-		props: { sketches },
+		props: { sketches, music },
 	}
 }
 
-const HomePage = ({ sketches }) => {
+const HomePage = ({ sketches, music }) => {
 	return (
 		<Layout>
 			<div className="w-full h-full">
@@ -21,7 +24,8 @@ const HomePage = ({ sketches }) => {
 					<Title />
 					<LandingScene />
 				</section>
-				<Gallery className="h-screen container mx-auto" sketches={sketches} />
+				<Gallery className="container mx-auto" projects={sketches} title="SKETCHES" />
+				<Gallery className="container mx-auto" projects={music} title="PROJECTS" />
 			</div>
 		</Layout>
 	);

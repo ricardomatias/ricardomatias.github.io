@@ -8,7 +8,7 @@ const SocialIcon = ({ src, alt, link }) => {
 
 	return (
 		<li className="block" ref={hoverRef}>
-			<a href={link} rel="external">
+			<a href={link} rel="noopener noreferrer external" target="_blank">
 				<img src={src} srset={src} alt={alt} className={clsx(isHovered && styles['jello-horizontal'], 'inline-block w-8', styles['scale-up'])} />
 			</a>
 		</li>
@@ -16,7 +16,7 @@ const SocialIcon = ({ src, alt, link }) => {
 };
 
 export const Footer = (props) => (
-	<section className="w-full bg-black mx-auto pt-8 px-4 pb-2 md:px-10 md:pt">
+	<section className="w-full bg-black mt-20 mx-auto pt-8 px-4 pb-2 md:px-10">
 		<div className="w-48 mx-auto mb-12">
 			<ul className="flex-row flex justify-between items-center">
 				<SocialIcon src="/icon-github-1.svg" link="https://github.com/ricardomatias/" alt="Github" />

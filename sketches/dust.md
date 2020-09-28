@@ -1,6 +1,7 @@
 ---
 id: dust
 title: Dust
+date: "2019-08-18"
 media:
 - id: dust-1
   name: Dust
@@ -19,4 +20,4 @@ techStack:
 - GLSL
 ---
 
-Broken glass was an experiment on pixel particles.
+**Dust** is an experiment in deforming the space where straight lines are drawn on.

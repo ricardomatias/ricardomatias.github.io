@@ -1,6 +1,7 @@
 ---
 id: aforisms
 title: Aforisms
+date: "2019-10-18"
 media:
 - id: aforisms-1
   name: Beg for fame
@@ -16,8 +17,10 @@ media:
   height: 440
 thumbnail: "thumbnail-beg-for-fame.png"
 techStack:
-- OPENRNDR
-- GLSL
+- CANVAS (BROWSER)
 ---
 
-Broken glass was an experiment on pixel particles.
+_**aphorism**, a concise expression of doctrine or principle or any generally accepted truth conveyed in a pithy, memorable statement._
+<br>
+<br>
+Experiments in typography.

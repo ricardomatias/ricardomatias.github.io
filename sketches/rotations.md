@@ -1,6 +1,7 @@
 ---
 id: rotations
 title: Rotations
+date: "2020-08-31"
 media:
 - id: rotations-triangle
   name: Triangle
@@ -23,6 +24,5 @@ techStack:
 - GLSL
 ---
 
-## Process
+**Rotations** is an experiment in creating patterns based on the rotation of geometric primitives in two dimensions.
 
-Dashed figures was an experiment involving [Poisson disk sampling](https://en.wikipedia.org/wiki/Poisson_sampling).

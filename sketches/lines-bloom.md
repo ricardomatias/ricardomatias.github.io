@@ -1,6 +1,7 @@
 ---
 id: lines-bloom
 title: Lines Bloom
+date: "2020-01-14"
 media:
 - id: lines-bloom-1
   name: Lines Bloom
@@ -20,4 +21,4 @@ techStack:
 - GLSL
 ---
 
-Broken glass was an experiment on pixel particles.
+**Lines Bloom** is an experiment in creating kaleidoscopic patterns through reflections of the path of one particle.

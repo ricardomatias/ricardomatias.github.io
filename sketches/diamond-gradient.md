@@ -1,6 +1,7 @@
 ---
 id: diamond-gradient
 title: Diamond Gradient
+date: "2020-03-03"
 media:
 - id: diamond-gradient-1
   name: Diamond Gradient
@@ -22,5 +23,5 @@ techStack:
 - OPENRNDR
 ---
 
-Diamond Gradient was an experiment on pixel particles.
+**Diamond Gradient** is like [Gradient Type](/sketches/gradient-type), based on a post processing technique for hole filling.
 

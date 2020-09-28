@@ -1,14 +1,14 @@
 import React, { useRef, useCallback, Suspense, useEffect } from 'react';
 import { Octahedron, Swarm } from '../3d';
 import Backdrop from './Backdrop';
-import useMedia from '../../hooks/useMedia';
+import { useMedia } from '../../hooks';
 
 const LandingScene = () => {
 	const scene = useRef();
-    
+
 	const mouse = useRef([ 0, 0 ]);
 	const onMouseMove = useCallback(({ clientX: x, clientY: y }) => (mouse.current = [ x - window.innerWidth / 2, y - window.innerHeight / 2 ]), []);
-	const scenePosition = useMedia(['(min-width: 1500px)', '(max-width: 640px)'], [[40.0, 0.0, 0.0], [0.0, -10.0, 0.0]], [40.0, 0.0, 0.0]);
+	const scenePosition = useMedia([ '(min-width: 1500px)', '(max-width: 768px)' ], [ [ 40.0, 0.0, 0.0 ], [ 0.0, -10.0, 0.0 ] ], [ 40.0, 0.0, 0.0 ]);
 
 	return (
 		<Backdrop onMouseMove={onMouseMove}>
@@ -23,7 +23,7 @@ const LandingScene = () => {
 				<Octahedron />
 
 				<Swarm mouse={mouse} count={12} />
-{/* 
+				{/*
 				<Suspense fallback={null}>
 					<Effects />
 				</Suspense> */}

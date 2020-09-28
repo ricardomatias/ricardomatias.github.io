@@ -1,0 +1,26 @@
+.markdown-content {
+	@apply font-body;
+}
+
+.markdown-content h2 {
+	@apply font-bold font-grot text-xl;
+}
+
+.markdown-content a {
+	@apply inline-block align-baseline font-bold text-sm text-gray-700;
+}
+
+.markdown-content a::after {
+	@apply bg-gray-500;
+	content: "";
+	height: 2px;
+	width: 0;
+	opacity: 1;
+	display: block;
+	transition: all ease-in-out 0.25s;
+}
+
+.markdown-content a:hover::after {
+	opacity: 1;
+	width: 100%;
+}

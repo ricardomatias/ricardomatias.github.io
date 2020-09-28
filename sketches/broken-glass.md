@@ -1,6 +1,7 @@
 ---
 id: broken-glass
 title: Broken Glass
+date: "2020-03-20"
 media:
 - id: broken-glass-1
   name: Broken Glass
@@ -23,4 +24,4 @@ techStack:
 - GLSL
 ---
 
-Broken glass was an experiment on pixel particles.
+**Broken Glass** is an experiment in particle systems (gpu). The particle movement is based on a [Simplex Noise](https://en.wikipedia.org/wiki/Simplex_noise) texture, while it's color is based on the initial position and the pixel (or area) it represents.
