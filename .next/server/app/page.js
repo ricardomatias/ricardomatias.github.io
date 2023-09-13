@@ -380,6 +380,10 @@ function Home() {
                                         className: "italic",
                                         children: "Full-stack Javascript Software Developer"
                                     }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        className: "mt-4",
+                                        children: "Previously: Zalando, Camunda, A.T.U"
+                                    }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "mt-4 flex flex-col",
                                         children: [

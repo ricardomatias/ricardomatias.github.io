@@ -11,6 +11,7 @@ export default function Home() {
             <p className='italic'>
               Full-stack Javascript Software Developer
             </p>
+            <p className='mt-4'>Previously: Zalando, Camunda, A.T.U</p>
             <div className='mt-4 flex flex-col'>
               <a className='underline' href="https://github.com/ricardomatias" target="_blank" rel="noopener">Github</a>
               <a className='underline' href="https://twitter.com/ricardomatiaspt" target="_blank" rel="noopener">Twitter</a>
