@@ -60,6 +60,17 @@ export default function Home() {
               </a>
             </div>
           </article>
+          <article className='flex flex-col md:flex-row mt-12'>
+            <div className='flex flex-col md:w-1/4'>
+              <a className='underline' href="https://www.dropcity.org/">DROPCITY</a>
+              <p className='text-sm text-left mt-4'>Dropcity is a new centre for Architecture and Design developed along Via Sammartini in Milan.<span className='block mt-4'>Design: RNDR Studio</span></p>
+            </div>
+            <div className='flex flex-col md:w-3/4'>
+              <a href="https://www.dropcity.org/">
+                <video src='/videos/dropcity.mp4' loop autoPlay muted />
+              </a>
+            </div>
+          </article>
           <footer className='my-4 flex md:hidden flex-col items-start'>
             <p className='text-sm'>
               © 2023 Ricardo Matias
