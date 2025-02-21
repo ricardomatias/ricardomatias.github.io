@@ -365,7 +365,7 @@ function Home() {
         className: "flex flex-col max-h-screen",
         children: [
             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "grid grid-cols-1 md:grid-cols-3 gap-4 w-full md:overflow-hidden",
+                className: "grid grid-cols-1 md:grid-cols-4 gap-4 w-full md:overflow-hidden",
                 children: [
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("aside", {
                         className: "flex flex-col justify-between col-span-1 pt-4 px-4 md:pt-16 md:pl-16",
@@ -394,22 +394,8 @@ function Home() {
                                                 rel: "noopener",
                                                 children: "Github"
                                             }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                className: "underline",
-                                                href: "https://twitter.com/ricardomatiaspt",
-                                                target: "_blank",
-                                                rel: "noopener",
-                                                children: "Twitter"
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                className: "underline",
-                                                href: "https://www.instagram.com/ricardomatiaspt/",
-                                                target: "_blank",
-                                                rel: "noopener",
-                                                children: "Instagram"
-                                            }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "ricardomatias0 at gmail dot com"
+                                                children: "general@ricardomatias.net"
                                             })
                                         ]
                                     })
@@ -419,27 +405,27 @@ function Home() {
                                 className: "hidden mb-8 md:flex flex-col items-start",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "text-sm",
-                                    children: "\xa9 2023 Ricardo Matias"
+                                    children: "\xa9 2025 Ricardo Matias"
                                 })
                             })
                         ]
                     }),
                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("section", {
-                        className: "flex flex-col col-span-2 md:overflow-y-scroll pt-4 px-4 md:pt-16 md:pb-8 md:pr-16",
+                        className: "flex flex-col col-span-3 md:overflow-y-scroll pt-4 px-4 md:pt-16 md:pb-8 md:pr-16",
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                 className: "text-xl font-bold mb-2",
                                 children: "PROJECTS"
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
-                                className: "flex flex-col md:flex-row",
+                                className: "flex flex-col md:flex-row md:gap-x-4",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "flex flex-col md:w-1/4",
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 className: "underline",
-                                                href: "https://eco-bot.net/",
+                                                href: "https://web.archive.org/web/20220203173835/https://eco-bot.net/",
                                                 children: "ECO-BOT"
                                             }),
                                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
@@ -455,11 +441,11 @@ function Home() {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex flex-col md:w-3/4",
+                                        className: "flex flex-col md:max-w-[856px]",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://eco-bot.net/",
+                                            href: "https://web.archive.org/web/20220203173835/https://eco-bot.net/",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
-                                                src: "/videos/ecobot.mp4",
+                                                src: "/videos/ecobot-optim.mp4",
                                                 loop: true,
                                                 autoPlay: true,
                                                 muted: true
@@ -469,10 +455,78 @@ function Home() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
-                                className: "flex flex-col md:flex-row mt-12",
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "flex flex-col md:w-1/4",
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "underline",
+                                                href: "https://seriousoomph.com",
+                                                children: "Visiorion"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                                className: "text-sm text-left mt-4",
+                                                children: "A platform for a trading strategy with user & admin dashboards, automated trade replication system."
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "flex flex-col md:max-w-[856px]",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "https://seriousoomph.com",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
+                                                src: "/videos/visiorion-optim.mp4",
+                                                loop: true,
+                                                autoPlay: true,
+                                                muted: true
+                                            })
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "underline",
+                                                href: "https://seriousoomph.com",
+                                                children: "Serious Oomph"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                className: "text-sm text-left mt-4",
+                                                children: [
+                                                    "We're creative copywriters. We write words and ideas that help brands and organisations find their voice, express their personality, and communicate with creativity, intelligence and energy.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        className: "block mt-4",
+                                                        children: "Design: Benjamin Lee"
+                                                    })
+                                                ]
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "flex flex-col md:max-w-[856px]",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "https://seriousoomph.com",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
+                                                src: "/videos/seriousoomph-optim.mp4",
+                                                loop: true,
+                                                autoPlay: true,
+                                                muted: true
+                                            })
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 className: "underline",
@@ -492,11 +546,11 @@ function Home() {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex flex-col md:w-3/4",
+                                        className: "flex flex-col md:max-w-[856px]",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             href: "https://whoiswe.nl/",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
-                                                src: "/videos/whoiswe.mp4",
+                                                src: "/videos/whoiswe-optim.mp4",
                                                 loop: true,
                                                 autoPlay: true,
                                                 muted: true
@@ -506,10 +560,10 @@ function Home() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
-                                className: "flex flex-col md:flex-row mt-12",
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "flex flex-col md:w-1/4",
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 className: "underline",
@@ -529,11 +583,11 @@ function Home() {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex flex-col md:w-3/4",
+                                        className: "flex flex-col  md:max-w-[856px]",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             href: "https://studioneural.ai",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
-                                                src: "/videos/studioneural.mp4",
+                                                src: "/videos/studioneural-optim.mp4",
                                                 loop: true,
                                                 autoPlay: true,
                                                 muted: true
@@ -543,10 +597,10 @@ function Home() {
                                 ]
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
-                                className: "flex flex-col md:flex-row mt-12",
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "flex flex-col md:w-1/4",
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 className: "underline",
@@ -566,11 +620,11 @@ function Home() {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex flex-col md:w-3/4",
+                                        className: "flex flex-col  md:max-w-[856px]",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             href: "https://www.dropcity.org/",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
-                                                src: "/videos/dropcity.mp4",
+                                                src: "/videos/dropcity-optim.mp4",
                                                 loop: true,
                                                 autoPlay: true,
                                                 muted: true
@@ -583,7 +637,7 @@ function Home() {
                                 className: "my-4 flex md:hidden flex-col items-start",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                     className: "text-sm",
-                                    children: "\xa9 2023 Ricardo Matias"
+                                    children: "\xa9 2025 Ricardo Matias"
                                 })
                             })
                         ]
