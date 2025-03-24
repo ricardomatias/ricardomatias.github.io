@@ -55,6 +55,23 @@ export default function Home() {
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
+                            <a className="underline" href="https://oracle.library.tudelft.nl/">
+                                Oracle
+                            </a>
+                            <p className="text-sm text-left mt-4">
+                                Oracle is the archived web version of an application that uses machine learning to map similarity
+                                for over 50,000 theses and dissertations from the TU Delft.
+                                <span className="block mt-4">Design: RNDR</span>
+                            </p>
+                        </div>
+                        <div className="flex flex-col md:max-w-[856px]">
+                            <a href="https://oracle.library.tudelft.nl/">
+                                <video src="/videos/oracle.mp4" loop autoPlay muted />
+                            </a>
+                        </div>
+                    </article>
+                    <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
+                        <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
                             <a className="underline" href="https://seriousoomph.com">
                                 Serious Oomph
                             </a>

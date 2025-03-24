@@ -233,15 +233,15 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 9635:
+/***/ 7888:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
 
 /***/ }),
 
@@ -252,7 +252,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 5532:
+/***/ 8745:
 /***/ (() => {
 
 
@@ -477,6 +477,43 @@ function Home() {
                                             href: "https://seriousoomph.com",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
                                                 src: "/videos/visiorion-optim.mp4",
+                                                loop: true,
+                                                autoPlay: true,
+                                                muted: true
+                                            })
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "underline",
+                                                href: "https://oracle.library.tudelft.nl/",
+                                                children: "Oracle"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                className: "text-sm text-left mt-4",
+                                                children: [
+                                                    "Oracle is the archived web version of an application that uses machine learning to map similarity for over 50,000 theses and dissertations from the TU Delft.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        className: "block mt-4",
+                                                        children: "Design: RNDR"
+                                                    })
+                                                ]
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "flex flex-col md:max-w-[856px]",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "https://oracle.library.tudelft.nl/",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
+                                                src: "/videos/oracle.mp4",
                                                 loop: true,
                                                 autoPlay: true,
                                                 muted: true
