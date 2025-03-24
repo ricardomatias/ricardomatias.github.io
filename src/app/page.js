@@ -20,7 +20,7 @@ export default function Home() {
                     </footer>
                 </aside>
                 <section className="flex flex-col col-span-3 md:overflow-y-scroll pt-4 px-4 md:pt-16 md:pb-8 md:pr-16">
-                    <h2 className="text-xl font-bold mb-2">PROJECTS</h2>
+                    <h2 className="text-xl font-bold mb-2">CLIENT PROJECTS</h2>
                     <article className="flex flex-col md:flex-row md:gap-x-4">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
                             <a className="underline" href="https://web.archive.org/web/20220203173835/https://eco-bot.net/">
