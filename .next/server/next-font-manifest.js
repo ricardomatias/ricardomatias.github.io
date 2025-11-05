@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/phoenix/Projects/js/web/ricardomatias-new-website/src/app/layout":["static/media/92f44bb82993d879-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/phoenix/Projects/js/web/ricardomatias-new-website/src/app/layout":["static/media/739c2d8941231bb4-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

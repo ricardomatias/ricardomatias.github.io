@@ -378,24 +378,32 @@ function Home() {
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         className: "italic",
-                                        children: "Full-stack Javascript Software Developer"
+                                        children: "Full-stack Web Developer"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        className: "italic",
+                                        children: "Berlin, Germany"
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                         className: "mt-4",
-                                        children: "Previously: Zalando, Camunda, A.T.U"
+                                        children: "Languages: Javascript (Typescript), Rust, C++"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                        className: "mt-1",
+                                        children: "Previously: Zalando, Camunda, A.T.U, Panartis"
                                     }),
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "mt-4 flex flex-col",
+                                        className: "mt-4 flex flex-col gap-1",
                                         children: [
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                 className: "underline",
                                                 href: "https://github.com/ricardomatias",
                                                 target: "_blank",
                                                 rel: "noopener",
-                                                children: "Github"
+                                                children: "ricardomatias (github)"
                                             }),
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                children: "general@ricardomatias.net"
+                                                children: "general at ricardomatias.net"
                                             })
                                         ]
                                     })
@@ -415,10 +423,47 @@ function Home() {
                         children: [
                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
                                 className: "text-xl font-bold mb-2",
-                                children: "PROJECTS"
+                                children: "CLIENT PROJECTS"
                             }),
                             /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
                                 className: "flex flex-col md:flex-row md:gap-x-4",
+                                children: [
+                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex flex-col md:w-1/4 md:min-w-[300px]",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                                className: "underline",
+                                                href: "https://cc-map.net/",
+                                                children: "CC-MAP - Creative Coding Map"
+                                            }),
+                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
+                                                className: "text-sm text-left mt-4",
+                                                children: [
+                                                    "“Unfolding the creative coding landscape” is an interactive platform that maps, connects, and celebrates diverse creative coding frameworks.",
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                        className: "block mt-4",
+                                                        children: "Design & Map: RNDR"
+                                                    })
+                                                ]
+                                            })
+                                        ]
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                        className: "flex flex-col md:max-w-[856px]",
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                            href: "https://cc-map.net/",
+                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
+                                                src: "/videos/ccmap-optim.mp4",
+                                                loop: true,
+                                                autoPlay: true,
+                                                muted: true
+                                            })
+                                        })
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("article", {
+                                className: "flex flex-col md:flex-row md:gap-x-4 mt-12",
                                 children: [
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "flex flex-col md:w-1/4 md:min-w-[300px]",
@@ -620,7 +665,7 @@ function Home() {
                                         ]
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                        className: "flex flex-col  md:max-w-[856px]",
+                                        className: "flex flex-col md:max-w-[856px]",
                                         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                             href: "https://studioneural.ai",
                                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {

@@ -6,13 +6,15 @@ export default function Home() {
                 <aside className="flex flex-col justify-between col-span-1 pt-4 px-4 md:pt-16 md:pl-16">
                     <div>
                         <h1 className="text-xl mb-2">Ricardo Matias</h1>
-                        <p className="italic">Full-stack Javascript Software Developer</p>
-                        <p className="mt-4">Previously: Zalando, Camunda, A.T.U</p>
-                        <div className="mt-4 flex flex-col">
+                        <p className="italic">Full-stack Web Developer</p>
+                        <p className="italic">Berlin, Germany</p>
+                        <p className="mt-4">Languages: Javascript (Typescript), Rust, C++</p>
+                        <p className="mt-1">Previously: Zalando, Camunda, A.T.U, Panartis</p>
+                        <div className="mt-4 flex flex-col gap-1">
                             <a className="underline" href="https://github.com/ricardomatias" target="_blank" rel="noopener">
-                                Github
+                                ricardomatias (github)
                             </a>
-                            <p>general@ricardomatias.net</p>
+                            <p>general at ricardomatias.net</p>
                         </div>
                     </div>
                     <footer className="hidden mb-8 md:flex flex-col items-start">
@@ -22,6 +24,23 @@ export default function Home() {
                 <section className="flex flex-col col-span-3 md:overflow-y-scroll pt-4 px-4 md:pt-16 md:pb-8 md:pr-16">
                     <h2 className="text-xl font-bold mb-2">CLIENT PROJECTS</h2>
                     <article className="flex flex-col md:flex-row md:gap-x-4">
+                        <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
+                            <a className="underline" href="https://cc-map.net/">
+                                CC-MAP - Creative Coding Map
+                            </a>
+                            <p className="text-sm text-left mt-4">
+                                “Unfolding the creative coding landscape” is an interactive platform that maps, connects, and
+                                celebrates diverse creative coding frameworks.
+                                <span className="block mt-4">Design & Map: RNDR</span>
+                            </p>
+                        </div>
+                        <div className="flex flex-col md:max-w-[856px]">
+                            <a href="https://cc-map.net/">
+                                <video src="/videos/ccmap-optim.mp4" loop autoPlay muted />
+                            </a>
+                        </div>
+                    </article>
+                    <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
                             <a className="underline" href="https://web.archive.org/web/20220203173835/https://eco-bot.net/">
                                 ECO-BOT
@@ -113,7 +132,7 @@ export default function Home() {
                                 <span className="block mt-4">Design: Benjamin Lee</span>
                             </p>
                         </div>
-                        <div className="flex flex-col  md:max-w-[856px]">
+                        <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://studioneural.ai">
                                 <video src="/videos/studioneural-optim.mp4" loop autoPlay muted />
                             </a>
