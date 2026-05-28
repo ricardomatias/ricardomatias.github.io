@@ -505,11 +505,7 @@ function Home() {
                                     /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                         className: "flex flex-col md:w-1/4 md:min-w-[300px]",
                                         children: [
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                                className: "underline",
-                                                href: "https://seriousoomph.com",
-                                                children: "Visiorion"
-                                            }),
+                                            "Visiorion",
                                             /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
                                                 className: "text-sm text-left mt-4",
                                                 children: "A platform for a trading strategy with user & admin dashboards, automated trade replication system."
@@ -518,14 +514,11 @@ function Home() {
                                     }),
                                     /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                         className: "flex flex-col md:max-w-[856px]",
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            href: "https://seriousoomph.com",
-                                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
-                                                src: "/videos/visiorion-optim.mp4",
-                                                loop: true,
-                                                autoPlay: true,
-                                                muted: true
-                                            })
+                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("video", {
+                                            src: "/videos/visiorion-optim.mp4",
+                                            loop: true,
+                                            autoPlay: true,
+                                            muted: true
                                         })
                                     })
                                 ]

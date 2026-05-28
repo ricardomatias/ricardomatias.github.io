@@ -1,4 +1,4 @@
-import Script from 'next/script';
+import Script from "next/script";
 export default function Home() {
     return (
         <main className="flex flex-col max-h-screen">
@@ -8,10 +8,19 @@ export default function Home() {
                         <h1 className="text-xl mb-2">Ricardo Matias</h1>
                         <p className="italic">Full-stack Web Developer</p>
                         <p className="italic">Berlin, Germany</p>
-                        <p className="mt-4">Languages: Javascript (Typescript), Rust, C++</p>
-                        <p className="mt-1">Previously: Zalando, Camunda, A.T.U, Panartis</p>
+                        <p className="mt-4">
+                            Languages: Javascript (Typescript), Rust, C++
+                        </p>
+                        <p className="mt-1">
+                            Previously: Zalando, Camunda, A.T.U, Panartis
+                        </p>
                         <div className="mt-4 flex flex-col gap-1">
-                            <a className="underline" href="https://github.com/ricardomatias" target="_blank" rel="noopener">
+                            <a
+                                className="underline"
+                                href="https://github.com/ricardomatias"
+                                target="_blank"
+                                rel="noopener"
+                            >
                                 ricardomatias (github)
                             </a>
                             <p>general at ricardomatias.net</p>
@@ -29,80 +38,125 @@ export default function Home() {
                                 CC-MAP - Creative Coding Map
                             </a>
                             <p className="text-sm text-left mt-4">
-                                “Unfolding the creative coding landscape” is an interactive platform that maps, connects, and
+                                “Unfolding the creative coding landscape” is an
+                                interactive platform that maps, connects, and
                                 celebrates diverse creative coding frameworks.
-                                <span className="block mt-4">Design & Map: RNDR</span>
+                                <span className="block mt-4">
+                                    Design & Map: RNDR
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://cc-map.net/">
-                                <video src="/videos/ccmap-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/ccmap-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://web.archive.org/web/20220203173835/https://eco-bot.net/">
+                            <a
+                                className="underline"
+                                href="https://web.archive.org/web/20220203173835/https://eco-bot.net/"
+                            >
                                 ECO-BOT
                             </a>
                             <p className="text-sm text-left mt-4">
-                                Exposing climate change disinformation and corporate greenwashing on social media during COP26.
-                                <span className="block mt-4">Design: Benjamin Lee</span>
+                                Exposing climate change disinformation and
+                                corporate greenwashing on social media during
+                                COP26.
+                                <span className="block mt-4">
+                                    Design: Benjamin Lee
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://web.archive.org/web/20220203173835/https://eco-bot.net/">
-                                <video src="/videos/ecobot-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/ecobot-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://seriousoomph.com">
-                                Visiorion
-                            </a>
+                            Visiorion
                             <p className="text-sm text-left mt-4">
-                                A platform for a trading strategy with user & admin dashboards, automated trade replication
+                                A platform for a trading strategy with user &
+                                admin dashboards, automated trade replication
                                 system.
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
-                            <a href="https://seriousoomph.com">
-                                <video src="/videos/visiorion-optim.mp4" loop autoPlay muted />
-                            </a>
+                            <video
+                                src="/videos/visiorion-optim.mp4"
+                                loop
+                                autoPlay
+                                muted
+                            />
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://oracle.library.tudelft.nl/">
+                            <a
+                                className="underline"
+                                href="https://oracle.library.tudelft.nl/"
+                            >
                                 Oracle
                             </a>
                             <p className="text-sm text-left mt-4">
-                                Oracle is the archived web version of an application that uses machine learning to map similarity
-                                for over 50,000 theses and dissertations from the TU Delft.
+                                Oracle is the archived web version of an
+                                application that uses machine learning to map
+                                similarity for over 50,000 theses and
+                                dissertations from the TU Delft.
                                 <span className="block mt-4">Design: RNDR</span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://oracle.library.tudelft.nl/">
-                                <video src="/videos/oracle.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/oracle.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://seriousoomph.com">
+                            <a
+                                className="underline"
+                                href="https://seriousoomph.com"
+                            >
                                 Serious Oomph
                             </a>
                             <p className="text-sm text-left mt-4">
-                                We're creative copywriters. We write words and ideas that help brands and organisations find their
-                                voice, express their personality, and communicate with creativity, intelligence and energy.
-                                <span className="block mt-4">Design: Benjamin Lee</span>
+                                We're creative copywriters. We write words and
+                                ideas that help brands and organisations find
+                                their voice, express their personality, and
+                                communicate with creativity, intelligence and
+                                energy.
+                                <span className="block mt-4">
+                                    Design: Benjamin Lee
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://seriousoomph.com">
-                                <video src="/videos/seriousoomph-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/seriousoomph-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
@@ -112,45 +166,76 @@ export default function Home() {
                                 Who is we?
                             </a>
                             <p className="text-sm text-left mt-4">
-                                A hybrid platform accompanying the Who is We? exhibition at the Pavilion of the Netherlands at the
-                                Biennale Architettura 2021 in Venice.<span className="block mt-4">Design: RNDR Studio</span>
+                                A hybrid platform accompanying the Who is We?
+                                exhibition at the Pavilion of the Netherlands at
+                                the Biennale Architettura 2021 in Venice.
+                                <span className="block mt-4">
+                                    Design: RNDR Studio
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://whoiswe.nl/">
-                                <video src="/videos/whoiswe-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/whoiswe-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://studioneural.ai">
+                            <a
+                                className="underline"
+                                href="https://studioneural.ai"
+                            >
                                 Studioneural
                             </a>
                             <p className="text-sm text-left mt-4">
-                                Studioneural is the world's first provider of synthetic media for long-form TV.
-                                <span className="block mt-4">Design: Benjamin Lee</span>
+                                Studioneural is the world's first provider of
+                                synthetic media for long-form TV.
+                                <span className="block mt-4">
+                                    Design: Benjamin Lee
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col md:max-w-[856px]">
                             <a href="https://studioneural.ai">
-                                <video src="/videos/studioneural-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/studioneural-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
                     <article className="flex flex-col md:flex-row md:gap-x-4 mt-12">
                         <div className="flex flex-col md:w-1/4 md:min-w-[300px]">
-                            <a className="underline" href="https://www.dropcity.org/">
+                            <a
+                                className="underline"
+                                href="https://www.dropcity.org/"
+                            >
                                 DROPCITY
                             </a>
                             <p className="text-sm text-left mt-4">
-                                Dropcity is a new centre for Architecture and Design developed along Via Sammartini in Milan.
-                                <span className="block mt-4">Design: RNDR Studio</span>
+                                Dropcity is a new centre for Architecture and
+                                Design developed along Via Sammartini in Milan.
+                                <span className="block mt-4">
+                                    Design: RNDR Studio
+                                </span>
                             </p>
                         </div>
                         <div className="flex flex-col  md:max-w-[856px]">
                             <a href="https://www.dropcity.org/">
-                                <video src="/videos/dropcity-optim.mp4" loop autoPlay muted />
+                                <video
+                                    src="/videos/dropcity-optim.mp4"
+                                    loop
+                                    autoPlay
+                                    muted
+                                />
                             </a>
                         </div>
                     </article>
